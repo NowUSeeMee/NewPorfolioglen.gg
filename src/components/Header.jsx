@@ -49,16 +49,13 @@ const Header = () => {
                 alignItems: 'center',
                 position: 'relative'
             }}>
-                <div className="logo" style={{ display: 'flex', alignItems: 'center' }}>
-                    <img 
-                        src="/images/logo.png" 
-                        alt="NW Logo" 
-                        style={{ height: '45px', objectFit: 'contain' }} 
-                        onError={(e) => {
-                            e.target.style.display = 'none';
-                            e.target.parentElement.innerHTML = '<span style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 800; letter-spacing: -0.5px;">Port<span class="text-gradient">folio.</span></span>';
-                        }}
-                    />
+                <div className="logo" style={{
+                    fontFamily: 'var(--font-display)',
+                    fontSize: '1.5rem',
+                    fontWeight: 800,
+                    letterSpacing: '-0.5px'
+                }}>
+                    Port<span className="text-gradient">folio.</span>
                 </div>
 
                 <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
