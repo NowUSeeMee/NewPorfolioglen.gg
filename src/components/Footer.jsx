@@ -27,9 +27,9 @@ const Footer = () => {
                         gap: '1.5rem',
                         color: 'var(--text-secondary)'
                     }}>
-                        <a href="#" className="nav-link">GitHub</a>
-                        <a href="#" className="nav-link">LinkedIn</a>
-                        <a href="#" className="nav-link">Twitter</a>
+                        <a href="https://github.com/NowUSeeMee" className="nav-link">GitHub</a>
+                        <a href="https://www.facebook.com/tablada.glen.1?rdid=hLoi9mDM5pzGDtuG&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1G78VoeFHk%2F#" className="nav-link">FaceBook</a>
+                        <a href="https://www.instagram.com/glentablada?igsh=N2ttdTlhZnpiY216" className="nav-link">Instagram</a>
                     </div>
                 </div>
                 <div style={{
@@ -39,7 +39,7 @@ const Footer = () => {
                     color: 'var(--text-secondary)',
                     fontSize: '0.9rem'
                 }}>
-                    <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Mark Glen Tablada. All rights reserved.</p>
                 </div>
             </div>
         </footer>
